@@ -1,0 +1,24 @@
+---
+import skills from '../data/skills.json'
+---
+
+<section>
+  <div class='my-10'>
+    <h3 class='font-semibold mb-2'>Tecnologías</h3>
+
+    <p class='mb-5'>
+      Conocimientos en tecnologías de desarrollo web, como HTML, CSS,
+      JavaScript, PHP, MySQL, entre otras.
+    </p>
+
+    <div class='flex gap-8 h-20 flex-wrap items-center justify-center'>
+      {
+        skills.data.map((skill, index) => (
+          <div key={index} class='flex h-12 w-12 rounded-xs items-center'>
+            <img src={skill.logo} alt={skill.name} title={skill.name} />
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

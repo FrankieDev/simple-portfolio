@@ -1,0 +1,48 @@
+{
+    "data": [{
+        "name": "JavaScript",
+        "logo": "/skills/javascript.svg"
+    },
+    {
+        "name": "React",
+        "logo": "/skills/react.svg"
+    },
+    {
+        "name": "Node.js",
+        "logo": "/skills/nodejs.svg"
+    },
+    {
+        "name": "Laravel",
+        "logo": "/skills/laravel.svg"
+    },
+    {
+        "name": "HTML5",
+        "logo": "/skills/html5.svg"
+    },
+    {
+        "name": "CSS3",
+        "logo": "/skills/css3.svg"
+    },
+    {
+        "name": "Tailwind CSS",
+        "logo": "/skills/tailwindcss.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "logo": "/skills/bootstrap.svg"
+    },
+    {
+        "name": "Git",
+        "logo": "/skills/git.svg"
+    },
+    {
+        "name": "GitHub",
+        "logo": "/skills/github.svg"
+    }
+    ,
+    {
+        "name": "MySQL",
+        "logo": "/skills/mysql.svg"
+    }]
+
+}
