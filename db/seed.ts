@@ -6,14 +6,12 @@ export default async function seed() {
     {
       name: 'Alice',
       email: 'frank@fadom.pro',
-      message: 'Hello, World!',
-      created: new Date()
+      message: 'Hello, World!'
     },
     {
       name: 'Bob',
       email: 'testqtesting.com',
-      message: 'Hello, World!',
-      created: new Date()
+      message: 'Hello, World!'
     }
   ])
 }
