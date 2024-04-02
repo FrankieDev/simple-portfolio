@@ -29,8 +29,7 @@ if (Astro.request.method === 'POST') {
       //return Astro.redirect('/login')
 
       // insert form data into the Comment table
-      let date = new Date()
-      await db.insert(Contact).values({ name, email, message, date })
+      await db.insert(Contact).values({ name, email, message })
     }
   } catch (error) {
     if (error instanceof Error) {
